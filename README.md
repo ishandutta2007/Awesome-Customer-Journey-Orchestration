@@ -1,207 +1,114 @@
-# Awesome-Customer-Journey-Orchestration
+# Awesome Customer Journey Orchestration (CJO)
 
-## Top Customer Journey Orchestration Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Customer-Journey-Orchestration/blob/main/README.md#how-to-contribute)
 
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Cross-Channel Journeys, Event-Triggered Automation & Lifecycle Marketing*  
-
-**Last updated: March 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Customer Journey Orchestration**. These tools enable marketing and growth teams to design automated, event-triggered journeys across email, SMS, push, and other channels — delivering the right message at the right time based on user behavior and segment membership.
-
-
-
-**Examples** include Salesforce Journey Builder, Braze, Iterable, Adobe Campaign, Acoustic Journey Analytics, Bloomreach Engagement, Insider, CleverTap, MoEngage, and Customer.io (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom journey builders, and open engagement infrastructure — ideal for growth engineers, product teams, and developers seeking transparent, vendor-independent customer journey orchestration.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Salesforce Journey Builder](https://www.salesforce.com/)**  
-
-  Visual journey orchestration tool within Marketing Cloud. Enables event-triggered, cross-channel customer journeys with Einstein AI for personalization and send-time optimization.
-
-
-
-- **[Braze](https://www.braze.com/)**  
-
-  Customer engagement platform for cross-channel messaging (email, push, SMS, in-app). Features Canvas journey builder, real-time segmentation, and AI-powered send-time optimization.
-
-
-
-- **[Iterable](https://iterable.com/)**  
-
-  Cross-channel growth marketing platform with visual journey builder, real-time segmentation, and A/B testing. Strong developer tools including SDKs and API.
-
-
-
-- **[Adobe Campaign](https://business.adobe.com/products/campaign.html)**  
-
-  Enterprise marketing automation platform with journey orchestration, real-time interaction, and cross-channel campaign management. Note: Adobe Campaign Classic scheduled to sunset in March 2027 .
-
-
-
-- **[Acoustic Journey Analytics](https://acoustic.com/)**  
-
-  Journey analytics and orchestration platform providing visibility into customer paths with AI-driven insights and automated campaign triggering.
-
-
-
-- **[Bloomreach Engagement](https://www.bloomreach.com/)**  
-
-  Commerce experience platform with journey orchestration, real-time segmentation, and AI-powered personalization across web, email, and mobile.
-
-
-
-- **[Insider](https://insiderone.com/)**  
-
-  Cross-channel customer engagement platform with journey orchestration, predictive segmentation, and AI-powered personalization.
-
-
-
-- **[CleverTap](https://clevertap.com/)**  
-
-  Mobile-first engagement platform with real-time analytics, segmentation, and multi-channel journey automation.
-
-
-
-- **[MoEngage](https://www.moengage.com/)**  
-
-  Customer engagement platform for mobile and web with AI-powered journey orchestration, segmentation, and analytics.
-
-
-
-- **[Customer.io](https://customer.io/)**  
-
-  Behavioral messaging platform for product-led growth. Features event-triggered email, push, SMS, and webhooks with a visual workflow builder.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Helio](https://github.com/achref-soua/helio)**  
-
-  Open-source, AI-native growth platform (AGPL-3.0) unifying CDP, segmentation, and cross-channel journeys (email/SMS/push/WhatsApp) on Temporal workflow engine. Features natural-language segments, predictive scoring, brand-voice content generation, and MCP server for AI agents. Self-hostable via Docker, Helm, or cloud-init. Sustains ~20,000 events/s at p95 81ms .
-
-
-
-- **[Dittofeed](https://github.com/Hexlet/dittofeed)**  
-
-  Developer-focused open-source customer engagement platform (MIT). Features drag-and-drop journey builder, segmentation interface, web-based template editor, git-based workflows, testing SDK, OpenTelemetry integration, and self-hosting. Sends email, SMS, push, WhatsApp, Slack. Positioned as Customer.io/Iterable/Klaviyo alternative .
-
-
-
-- **[Laudspeaker](https://github.com/laudspeaker/laudspeaker)**  
-
-  Open-source customer journey automation and Braze/Iterable alternative (AGPL-3.0). Features visual no-code journey builder, event-triggered cross-channel messages (email, SMS, Firebase push), time delays, user segments, PostgreSQL/CSV imports, and PostHog integration .
-
-
-
-- **[Mautic](https://github.com/mautic/mautic)**  
-
-  The world's first open-source marketing automation platform (GPL-3.0). 100% community-owned with no commercial entity behind it. Features multi-channel campaigns (email, SMS, social, web tracking), intelligent automation, unlimited segmentation, A/B testing, and full data sovereignty. Supports GDPR compliance. Rated 8.9/10 on TrustRadius .
-
-
-
-- **[Corteza](https://github.com/cortezaproject/corteza)**  
-
-  Open-source low-code platform (Apache-2.0) for building CRM, business process, and structured data applications with workflow automation. Features visual application builder, BPMN-style workflow engine, granular RBAC, and REST API everywhere. Corteza CRM ships as flagship application with 360-degree customer view .
-
-
-
-- **[LimeJourney](https://github.com/limejourney/limejourney)**  
-
-  Open-source AI-based customer engagement platform (license varies) for designing personalized user journeys at scale. Features visual journey builder, dynamic segmentation based on events/attributes, AI insights, and BYOI (Bring Your Own Integrations). Tech stack includes TypeScript, Next.js, ClickHouse, Temporal, and Kafka .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Apache Unomi](https://github.com/apache/unomi)** — Open-source customer data platform (Apache-2.0) with profile management and segmentation.
-
-- **[RudderStack](https://github.com/rudderlabs/rudder-server)** — Open-source customer data pipeline (AGPL-3.0) for collecting and routing events.
-
-- **[Jitsu](https://github.com/jitsucom/jitsu)** — Open-source data collection and CDP (MIT) for event streaming.
-
-- **[Metarank](https://github.com/metarank/metarank)** — Open-source personalization and ranking engine (Apache-2.0).
-
-- **[OpenClix](https://github.com/OpenClix/openclix)** — Open-source mobile app retention and engagement automation (MIT).
-
-- **[Fusion](https://github.com/fusion-hq/fusion)** — Open-source user analytics and engagement platform with live-chat and push notifications.
-
-- Community **n8n** workflows for journey automation and multi-channel messaging orchestration.
-
-
-
-**Frameworks for building custom systems**: Combine **Helio** or **Dittofeed** as the journey orchestration engine with **Laudspeaker** for visual no-code journey building, **Mautic** for broader marketing automation, **Corteza** for CRM and business process integration, and **PostgreSQL + ClickHouse** for event storage — creating a fully self-hosted, enterprise-grade customer journey orchestration platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Customer journey platforms handling personal data must comply with data protection regulations (GDPR, CCPA, CAN-SPAM, etc.).
-
-- Self-hosted open-source solutions require proper security hardening, email deliverability configuration, and ongoing maintenance for production reliability.
-
-
+> A curated list of top **Customer Journey Orchestration (CJO)** SaaS tools, open-source software, marketing automation platforms, and developer frameworks for lifecycle marketing, cross-channel engagement, and real-time behavioral automation.
 
 ---
 
+## What is Customer Journey Orchestration?
 
+**Customer Journey Orchestration (CJO)** is the discipline and technology of dynamically planning, automating, and tailoring personalized interactions across multiple channels (Email, SMS, Mobile Push, In-App, WhatsApp, Webhooks) based on real-time customer behavior, journey stage, and lifecycle milestones.
 
-**Made for growth teams, product marketers, CRM engineers, and developers building transparent customer journey solutions.**  
+Whether you are evaluating enterprise SaaS or building a self-hosted modern growth stack, this directory covers top category leaders and developer-friendly open-source alternatives.
 
-Let's make customer journey orchestration more open, data-driven, and efficient.
+---
+
+## Table of Contents
+
+- [SaaS / Hosted Platforms](#saas--hosted-platforms)
+- [Open-Source Platforms & Self-Hosted Alternatives](#open-source-platforms--self-hosted-alternatives)
+- [Complementary Infrastructure & CDP Tools](#complementary-infrastructure--cdp-tools)
+- [Architecting an Open-Source Journey Stack](#architecting-an-open-source-journey-stack)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+---
+
+## SaaS / Hosted Platforms
+
+Leading proprietary customer journey orchestration, cross-channel engagement, and lifecycle marketing platforms:
+
+| Platform | Key Focus & Capabilities | Pricing / Free Tier |
+| :--- | :--- | :--- |
+| **[Customer.io](https://customer.io/)** | Behavioral messaging, event-driven email, push, SMS, in-app workflows & visual canvas for product-led growth (PLG). | Starts at ~$100/mo (Essentials); free 14-day trial available. No permanent free tier. |
+| **[Braze](https://www.braze.com/)** | Enterprise cross-channel customer engagement, Canvas journey builder, real-time segmentation, and AI predictive suite. | Enterprise custom pricing based on MAU & channel volume. No free tier. |
+| **[Iterable](https://iterable.com/)** | Unified customer communication platform, cross-channel journey designer, rich APIs, mobile SDKs, and predictive AI. | Custom enterprise quote based on data volume & message counts. No free tier. |
+| **[Salesforce Journey Builder](https://www.salesforce.com/)** | Enterprise marketing cloud journey orchestration with Einstein AI personalization and unified CRM data integration. | Included in Salesforce Marketing Cloud editions; custom annual enterprise contract. No free tier. |
+| **[Adobe Campaign](https://business.adobe.com/products/campaign.html)** | Enterprise campaign management, omnichannel delivery, and complex profile orchestration. *(Adobe Campaign Classic sunsetting March 2027)* | Custom enterprise licensing. No free tier. |
+| **[CleverTap](https://clevertap.com/)** | Mobile-first customer lifecycle management, real-time analytics, automated journey funnels, and retention optimization. | Starts with tiered growth plans based on Monthly Active Users (MAU). No permanent free tier (trial available). |
+| **[MoEngage](https://www.moengage.com/)** | Customer engagement platform for mobile and web apps, Sherpa AI-driven journey mapping, and omnichannel delivery. | Tiered pricing based on MAU; free plan/trial available for qualified early-stage startups (up to 10k MAU on select programs). |
+| **[Bloomreach Engagement](https://www.bloomreach.com/)** | E-commerce CDP and journey orchestration, personalized web recommendations, and real-time triggers. | Custom enterprise pricing. No free tier. |
+| **[Insider](https://insiderone.com/)** | AI-native cross-channel customer experience orchestration, predictive segments, WhatsApp & Web push automation. | Custom enterprise pricing based on contact volume and features. No free tier. |
+| **[Acoustic Journey Analytics](https://acoustic.com/)** | Customer path analytics, interaction insights, behavioral friction detection, and triggered outbound campaigns. | Custom enterprise quote based on event volume. No free tier. |
+
+---
+
+## Open-Source Platforms & Self-Hosted Alternatives
+
+Open-source journey automation engines and privacy-first platforms for developers and growth engineers seeking vendor independence:
+
+| Project | License | Tech Stack & Highlights | Stars / Repo |
+| :--- | :--- | :--- | :--- |
+| **[Helio](https://github.com/achref-soua/helio)** | AGPL-3.0 | Temporal, AI-native CDP + cross-channel journeys (Email, SMS, Push, WhatsApp), MCP server, sustains ~20k events/s. | [GitHub](https://github.com/achref-soua/helio) |
+| **[Dittofeed](https://github.com/Hexlet/dittofeed)** | MIT | TypeScript, ClickHouse, Temporal. Git-based workflows, testing SDK, drag-and-drop journey builder (Customer.io alternative). | [GitHub](https://github.com/Hexlet/dittofeed) |
+| **[Laudspeaker](https://github.com/laudspeaker/laudspeaker)** | AGPL-3.0 | Node.js, PostgreSQL. Visual no-code canvas, event triggers, PostHog integration, multi-channel messaging (Braze alternative). | [GitHub](https://github.com/laudspeaker/laudspeaker) |
+| **[Mautic](https://github.com/mautic/mautic)** | GPL-3.0 | PHP, MySQL. Community-driven marketing automation, email drip campaigns, lead scoring, and web tracking with full GDPR compliance. | [GitHub](https://github.com/mautic/mautic) |
+| **[Corteza](https://github.com/cortezaproject/corteza)** | Apache-2.0 | Go, Vue.js. Low-code CRM & BPMN workflow engine for 360-degree customer records and automated business processes. | [GitHub](https://github.com/cortezaproject/corteza) |
+| **[LimeJourney](https://github.com/limejourney/limejourney)** | Source-available | TypeScript, Next.js, Temporal, Kafka, ClickHouse. AI-driven dynamic segments and custom event triggers. | [GitHub](https://github.com/limejourney/limejourney) |
+
+---
+
+## Complementary Infrastructure & CDP Tools
+
+Essential open-source tools to build an end-to-end customer data pipeline and event infrastructure:
+
+- **[Apache Unomi](https://github.com/apache/unomi)** (Apache-2.0) — Customer Data Platform (CDP) server for profile consolidation and real-time persona segmentation.
+- **[RudderStack](https://github.com/rudderlabs/rudder-server)** (AGPL-3.0) — Privacy-first open-source customer data pipeline to collect, route, and transform behavioral events.
+- **[Jitsu](https://github.com/jitsucom/jitsu)** (MIT) — High-throughput event collection engine and lightweight open CDP alternative to Segment.
+- **[Metarank](https://github.com/metarank/metarank)** (Apache-2.0) — Real-time personalization and ranking service driven by customer interaction events.
+- **[OpenClix](https://github.com/OpenClix/openclix)** (MIT) — Mobile app retention and user engagement automation tool.
+- **[Fusion](https://github.com/fusion-hq/fusion)** — In-app engagement, live chat, and push notification infrastructure.
+- **[n8n](https://github.com/n8n-io/n8n)** (Fair-code) — Workflow automation tool often paired with transactional providers for multi-step journey execution.
+
+---
+
+## Architecting an Open-Source Journey Stack
+
+To deploy an enterprise-grade, privacy-respecting self-hosted journey orchestration architecture:
+
+```
+[ User Touchpoints ] (Web / App / Mobile)
+        │
+        ▼ (Event Ingestion)
+[ RudderStack / Jitsu ]
+        │
+        ▼ (Storage & Real-Time Querying)
+[ PostgreSQL + ClickHouse ]
+        │
+        ▼ (Journey Logic & Execution)
+[ Dittofeed / Helio / Laudspeaker / Mautic ]
+        │
+        ▼ (Dispatch Deliverability)
+[ Email (SES/Resend) | SMS (Twilio) | Push (FCM/APNs) | WhatsApp ]
+```
+
+---
+
+## How to Contribute
+
+Contributions are welcome! To add or update an entry:
+
+1. Fork this repository.
+2. Add your tool to `README.md` in the appropriate category with factual, unbiased descriptions.
+3. If adding a SaaS product, please include relevant pricing / tier details.
+4. Ensure all links point to authoritative domains or repository homes.
+5. Submit a Pull Request with a clear summary.
+
+---
+
+## Disclaimer
+
+This repository is an independently curated educational list. Product names and logos are trademarks of their respective owners. Self-hosted platforms require proper infrastructure hardening, consent tracking, and deliverability configuration to comply with data privacy regulations (GDPR, CCPA, CAN-SPAM).
